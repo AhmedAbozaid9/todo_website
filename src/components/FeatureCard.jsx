@@ -2,10 +2,10 @@ import React from 'react';
 
 const FeatureCard = ({title,content,img}) => {
   return (
-    <div className="bg-white p-4 lg:w-[370px] lg:h-[200px] md:w-[260px] md:h-[150px] w-[220px] h-[120px] relative">
-      <h3 className="text-2xl font-normal md:text-xl">{title}</h3>
+    <div className="bg-white p-4 lg:w-[370px] lg:h-[200px] md:w-[260px] md:h-[150px] sm:w-[220px] sm:h-[120px] w-[160px] h-[90px] relative">
+      <h3 className="md:text-2xl font-normal sm:text-xl text-md">{title}</h3>
       <p className="text-dimBlack md:text-lg sm:text-sm text-[12px]">{content}</p>
-      <img draggable={"false"} src={img} alt={title} className="lg:w-[45px] md:w-[28px] w-[23px] absolute bottom-4 right-4"/>
+      <img draggable={"false"} src={img} alt={title} className="lg:w-[45px] md:w-[28px] sm:w-[23px] w-[18px] absolute sm:bottom-4 sm:right-4 bottom-1 right-1"/>
     </div>
   );
 };
