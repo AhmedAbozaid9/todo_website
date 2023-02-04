@@ -5,7 +5,7 @@ import FeatureCard from "./FeatureCard.jsx";
 import superWoman from "../assets/superWoman.svg"
 
 const Features = () => (
-  <Section color="bg-pastelOrange overflow-x-hidden" style="flex flex-col justify-around items-center">
+  <Section color="bg-pastelOrange" style="flex flex-col justify-around items-center">
     <h1 className=" text-2xl sm:text-4xl font-semibold text-white"><span className="border-b-4 border-b-white font-robotoSlab">Powered</span> by Technology</h1>
     <div className="grid md:grid-rows-1 md:grid-cols-2 grid-rows-2 grid-cols-1 justify-center items-start sm:items-center">
       <div className="flex gap-2 lg:min-w-[800px] md:min-w-[550px] min-w-[450px] flex-wrap">
